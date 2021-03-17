@@ -43,7 +43,7 @@
         <a href="#" class="recipe-link">
           <div class="card recipe-card dessert">
             <div class="card-body recipe-card-body">
-                  <div class="rating">
+                  <div class="card-rating">
                     <i class="fas fa-star ygold"></i>
                     <i class="fas fa-star ygold"></i>
                     <i class="fas fa-star ygold"></i>
@@ -75,8 +75,8 @@
                     <span class="badge bg-warning text-dark recipe-badge">Light Meal</span>
                   </div>
                   <div class="container row">
-                    <i class="fas fa-utensils card-detail"></i><p class="recipe-detail">Serves 2</p>
-                    <i class="fas fa-clock card-detail"></i><p class="recipe-detail">2 hours</p>
+                    <i class="fas fa-utensils card-detail"></i><p class="card-recipe-detail">Serves 2</p>
+                    <i class="fas fa-clock card-detail"></i><p class="card-recipe-detail">2 hours</p>
                   </div>
                   <h2 class="card-title recipe-title ygold" style="line-height: 1.5;">Sandwiches</h2>
                   <p class="card-text  recipe-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
@@ -136,7 +136,7 @@
   </div>
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">Yummy.com</a>
+    <a class="text-dark" href="#">Yummy.com</a>
   </div>
 
 

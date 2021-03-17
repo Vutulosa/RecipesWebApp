@@ -4,11 +4,13 @@ body {
     background-color: #e4e4e4;
     background-size: 100%;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .ybody {
     background-color:#f1f1f177;
     padding-bottom: 0.25em;
+    min-height:100%;
 }
 
 .y-nav-item {
@@ -137,7 +139,8 @@ body {
     background-image: url("../img/category/starter.jpg");
 }
 
-.recipe-detail {
+.card-recipe-detail {
+    display:inline;
     padding-top:0.25em;
     margin-bottom:0px;
     padding-left:0.3em;
@@ -169,4 +172,42 @@ body {
 
 .recipe-card-text {
     margin-bottom:0.5em;
+}
+
+.recipe-header {
+    margin-top: 0.75em;
+    color:#212529;
+    display:inline;
+}
+
+.ratings {
+    font-size:0.9em;
+}
+
+.recipe-detail {
+    display:inline;
+    padding-top:0.25em;
+    margin-bottom:0px;
+    padding-left:0.3em;
+    padding-right:0.3em;
+}
+
+.recipe-details {
+    margin-top:0.25em;
+}
+
+.recipe-details-header {
+    margin-top:0.25em;
+    font-weight:600;
+}
+
+.footer-fixed {
+    position: absolute;
+    bottom:0px;
+    width:100%;
+}
+
+.misc {
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
