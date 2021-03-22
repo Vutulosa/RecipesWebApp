@@ -211,3 +211,40 @@ body {
     margin-left: 1em;
     margin-bottom: 1em;
 }
+
+.user {
+    padding: 1em;
+}
+
+.user-icon {
+    color:#1d1d1d;
+    font-size: 4em;
+}
+
+.user-name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+    margin-bottom:0;
+}
+
+.user-id {
+    font-size:1.25em;
+    margin-bottom:0;
+}
+
+.id-title {
+    color:#4b4b4b;
+}
+
+.id {
+    color:#727272;
+}
+
+.favourites-container {
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.login-card {
+    background-color: #ffffffa8;
+}
