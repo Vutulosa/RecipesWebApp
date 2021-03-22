@@ -1,4 +1,8 @@
 
+<?php
+  require_once("masterpage.php");
+?>
+
   <nav class="ybreadcrumb">
     <div class="container">
       <a class="y-breadcrumb-item" href="#">Home</a>
