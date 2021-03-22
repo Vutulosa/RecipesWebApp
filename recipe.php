@@ -60,9 +60,8 @@
     </div>
   </div>
 
-
-
-  <div class="text-center p-3 footer-fixed" style="background-color: rgba(0, 0, 0, 0.2);">
+  <br><br><br>
+  <div class="text-center p-3 fixed-bottom" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
     <a class="text-dark" href="#">Yummy.com</a>
   </div>
