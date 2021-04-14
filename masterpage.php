@@ -30,9 +30,6 @@
         <li class="nav-item y-nav-item active">
           <a class="nav-link y-nav-link" href="#">Recipes</a>
         </li>
-        <li class="nav-item y-nav-item">
-          <a class="nav-link y-nav-link" href="#">Chefs</a>
-        </li>
       </ul>
       <a class="nav-link y-nav-link" href="#" style="color:white;"> Sign In <i class="fas fa-sign-in-alt"></i></a>
     </div>

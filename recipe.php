@@ -35,7 +35,7 @@
                 <i class="fas fa-clock"></i><p class="recipe-detail"  data-toggle="tooltip" data-placement="top" title="Cooking Time">2 hours</p>
             </div>
         </div>
-        <div class="col-md-4 border-top">
+        <div class="col-md-3 border-top">
             <h5 class="recipe-details-header"><i class="fas fa-receipt"></i> Ingredients</h5>
             <ul>
                 <li>Ingredient 1</li>
@@ -44,14 +44,12 @@
                 <li>Ingredient 1</li>
             </ul>
         </div>
-        <div class="col-md-8 border-top">
+        <div class="col-md-9 border-top">
         <h5 class="recipe-details-header"><i class="fas fa-clipboard-list"></i> Method</h5>
-            <ol>
-                <li>Ingredient 1</li>
-                <li>Ingredient 1</li>
-                <li>Ingredient 1</li>
-                <li>Ingredient 1</li>
-            </ol>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
         </div>
         <div class="misc">
             <button type="button" class="btn btn-success btn-sm"><i class="fas fa-heart"></i> Add to favourites</button>

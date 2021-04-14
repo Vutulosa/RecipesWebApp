@@ -38,7 +38,7 @@ body {
     margin-bottom: 1em;
     border-radius: 1em;
     transition: transform 0.2s, background-color 0.2s;
-    min-height: 204px;
+    min-height: 234px;
 }
 
 .recipe-card:hover {
@@ -241,8 +241,8 @@ body {
 }
 
 .favourites-container {
-    padding-left:3px;
-    padding-right:3px;
+    padding-left:0;
+    padding-right:0;
 }
 
 .login-card {

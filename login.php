@@ -9,6 +9,12 @@
       <div class="d-flex align-items-center justify-content-center" style="min-height:85vh; width:100%;">
         <div class="card login-card" style="width: 18rem; background">
           <div class="card-body">
+            
+            <?php
+  require_once("register.php");
+?>
+
+            <!--
             <form class="form-signin text-center">
               <h1 style="font-size:3.5em;"><i class="fas fa-user-circle"></i></h1>
               <div class="form-group">
@@ -24,6 +30,8 @@
                 <a>Don't have an account?</a> <a href="#">Register</a>
               </div>
             </form>
+            -->
+
           </div>
         </div>
       </div>
