@@ -11,10 +11,7 @@ if (mysqli_connect_errno()) {
 $id = $_GET["id"];
 
 $stmt = $conn->stmt_init();
-$stmt->prepare('SELECT `recipe`.`userID`, `recipeID`, `rating`, `category`, `servings`, `cookingTime`, `recipeName`, `instructions`, `user`.`firstname`, user.`lastname`
-    FROM (recipe
-        INNER JOIN user
-        ON recipe.userID = user.userID)
+$stmt->prepare('SELECT `ingredientName`, `quantity` FROM ingredient
     WHERE (`recipeID` = ?)');
 
 $stmt->bind_param("i", $id);
@@ -23,7 +20,7 @@ $stmt->execute();
 
 $result = $stmt->get_result();
 
-$json_string = json_encode($result->fetch_assoc(), JSON_UNESCAPED_UNICODE);
+$json_string = json_encode($result->fetch_all(MYSQLI_ASSOC), JSON_UNESCAPED_UNICODE);
 echo $json_string;
 
 $stmt->close();
