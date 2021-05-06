@@ -5,11 +5,9 @@ require_once ("masterpage.php");
 
 <nav class="ybreadcrumb">
 	<div class="container">
-		<a class="y-breadcrumb-item" href="#">Home</a> <i
-			class="fas fa-angle-double-right y-right"></i> <a
-			class="y-breadcrumb-item" href="recipes.php">Recipes</a> <i
-			class="fas fa-angle-double-right y-right"></i> <a
-			class="y-breadcrumb-item-active">Recipe</a>
+		<a class="y-breadcrumb-item" href="recipes.php">Recipes</a>
+		<i class="fas fa-angle-double-right y-right"></i>
+		<a class="y-breadcrumb-item-active" id="recipeLink"></a>
 	</div>
 </nav>
 
@@ -96,6 +94,8 @@ require_once ("masterpage.php");
             		$('#recipe').append(msg + xhr.status + " " + xhr.statusText);
 				} 
         		else {
+					$('#recipeLink').html(json.recipeName);
+            		
 					var recipe = '<div class="container recipe-header">';
 					recipe += '<h2 class="recipe-header ygold">' + json.recipeName + '</h2>';
 					recipe += '<h6 class="recipe-header"> by <a href="user.php?id=' + json.userID + '">' + json.firstname + " " + json.lastname + "</a></h6></div>";

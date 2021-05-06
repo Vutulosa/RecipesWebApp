@@ -28,10 +28,17 @@
           <a class="nav-link y-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item y-nav-item active">
-          <a class="nav-link y-nav-link" href="#">Recipes</a>
+          <a class="nav-link y-nav-link" href="recipes.php">Recipes</a>
         </li>
       </ul>
-      <a class="nav-link y-nav-link" href="#" style="color:white;"> Sign In <i class="fas fa-sign-in-alt"></i></a>
+      <?php
+        session_start();
+        if(isset($_SESSION['username'] )){
+            echo '<a class="nav-link y-nav-link" href="user.php?username=' . $_SESSION['username'] . '" style="color:white;">' . $_SESSION['username'] . ' <i class="fas fa-sign-in-alt"></i></a>';
+        } else {
+            echo '<a class="nav-link y-nav-link" href="login.php" style="color:white;"> Sign In <i class="fas fa-sign-in-alt"></i></a>';
+        }
+      ?>
     </div>
   </div>
   </nav>

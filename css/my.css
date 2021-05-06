@@ -248,3 +248,7 @@ body {
 .login-card {
     background-color: #ffffffa8;
 }
+
+.search {
+	float:right;
+}
