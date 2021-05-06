@@ -2,6 +2,7 @@
 
 Recipe book Web Application with an integrated database. Allows user search and browse recipes and register.
 Created using HTML, CSS, BOOTSTRAP, jQuery client-side and PHP server-side. Implements AJAX to allow thick client-thin server configuration.
+Uses mobile-first design principiles.
 
 ## Web app Preview
 
